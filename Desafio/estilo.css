@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	position: static;
+	background-image: linear-gradient(to right,cyan,dodgerblue);	
+}
+
+#login{
+	background: #ffffff;
+	box-shadow: 3px 3px 1px 0px #00000060;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px;
+
+}
+
+#logo{
+	padding: 10px 15px;
+	width: 225px;
+}
+
+.conteudo{
+	margin: 20px;
+	padding: 20px;
+	/*border: 1px solid red;*/
+}
+
+.Dados{
+	margin-bottom: 25px;
+
+}
+
+
+input{
+	margin-top: 7px;
+	border-color: #D1D1D1;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 15px;
+	outline: none;
+
+}
+
+button{
+	background-color: dodgerblue;
+	padding: 15px;
+	color: white;
+	width: 100%;
+	border: none;
+	border-radius: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: deepskyblue;
+}
+
+p{
+	text-align: center;
+	color: gray;
+	font-size: 0.7em;
+}
+a{
+	text-decoration: none;
+}
+ a:hover{
+ 	text-decoration: underline;
+ 	color: deepskyblue;
+ }
+
+ h1{
+ 	color: #3D3939;
+ 	text-align: center;
+ }
+
+ h2{
+ 	color: #3D3939;
+ 	font-size: 0.9em;
+ }

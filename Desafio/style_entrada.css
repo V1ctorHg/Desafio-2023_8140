@@ -1,0 +1,33 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	position: static;
+	background-image: linear-gradient(to right,cyan,dodgerblue);	
+}
+
+
+#logo{
+	padding: 10px 15px;
+	width: 225px;
+}
+
+#logout{
+    position: fixed;
+    right: 25px;
+    top: 15px;
+}
+
+#logout:hover{
+    color: white;
+}
+
+
+h1{
+    color: #3D3939;
+    text-align: center;
+}

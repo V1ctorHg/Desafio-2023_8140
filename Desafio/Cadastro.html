@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro - Desafio</title>
+	<link rel="shortcut icon" href="Imagens/logo.png">
+	<link rel="stylesheet" type="text/css" href="estilo_cadastro.css">
+
+</head>
+<body>
+	<div>
+		<a href="index.html"><img id="logo" src="imagens/infoalto.png"></a> 
+	</div>
+	<div id="login"> <!--Inicio do login-->
+		<div class="conteudo">
+			<h1>Cadastre-se</h1>
+			<br>
+			<form>
+				<div class="Dados">
+					<h2>Nome</h2>
+					<input type="text" name="nome" id="nome" placeholder="Nome" style="margin-right: 20px;" required>
+				</div>
+				<div class="Dados">
+					<h2>Sobrenome</h2>
+					<input type="text" placeholder="Sobrenome">
+				</div>
+
+				<h2>Gênero</h2>
+				<div>
+					<input type="radio" name="genero" id="masculino" value="masculino" required> <label for="masculino">Masculino</label>
+					<input type="radio" name="genero" id="feminino" value="feminino" required> <label for="feminino">Feminino</label>
+					<input type="radio" name="genero" id="outro" value="outro" required> <label for="outro">Outro</label>
+				</div>
+				<br>
+				<div class="account">
+					<h2>Email</h2>
+					<input type="email" name="email" id="email" placeholder="Email" style="width: 94%;" required>
+				</div>
+				<div class="account">
+					<h2>Senha</h2>
+					<input type="password" name="senha" id="senha" placeholder="Senha" style="width: 94%;" required>
+				</div>
+				<div class="account">
+					<h2>Confirmar senha</h2>
+					<input type="password" name="senha" id="senha" placeholder="Senha" style="width: 94%;" required>
+				</div>
+				<div>
+					<input type="checkbox" id="termos" required> <label for="termos">Concordo com os Termos de Uso</label><br>
+					<input type="checkbox" id="novidades"> <label for="novidades">Desejo receber novidades</label>
+				</div>
+				<br>
+				<div>
+					<button type="submit" formaction="index.html" ">Cadastrar</button>
+				</div>
+			</form>
+			<br>
+			<p>Você já tem uma conta? <a href="index.html">Entre aqui</a></p>
+		</div>
+	</div><!--Fim do login-->
+
+</body>
+</html>
